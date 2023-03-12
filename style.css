@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
 }
+
 /*HEADER*/
 header {
     display: flex;
@@ -35,11 +36,13 @@ nav a {
     background-color: #65E4A3;
     padding: 30px;
 }
+
 .s1 h1 {
     font-size: 15px;
     padding: 10px 0px;
-   
+
 }
+
 .s1 .div {
     display: flex;
     justify-content: space-between;
@@ -63,12 +66,14 @@ nav a {
 
 .s2 h1 {
     font-size: 15px;
-    
+
 }
+
 .s2 .p1 {
     font-size: 30px;
     padding: 10px 0px;
 }
+
 .s2 .div {
     display: flex;
     justify-content: space-evenly;
@@ -83,13 +88,15 @@ nav a {
     color: white;
     padding: 50px;
 }
+
 .s3 .d1 {
     max-width: 600px;
     margin: auto;
 }
+
 .s3 h1 {
     font-size: 15px;
-    
+
 }
 
 .s3 .p1 {
@@ -103,15 +110,18 @@ nav a {
 .s4 {
     padding: 50px;
 }
+
 .s4 h1 {
     font-size: 15px;
-    
+
 }
-.s4 .d2{
+
+.s4 .d2 {
     max-width: 1000px;
     margin: auto;
     padding: 10px;
 }
+
 .s4 .div {
     display: flex;
     justify-content: space-evenly;
@@ -126,7 +136,7 @@ nav a {
 }
 
 .s4 .img2 img {
-    width: 50%;
+    width: 60%;
     padding: 20px 0px;
 }
 
@@ -144,13 +154,13 @@ nav a {
 
 .s5 h1 {
     font-size: 15px;
-    
+
 }
 
 .s5 h1,
 .s5 h2 {
     text-align: center;
-    padding: 5px 0px;
+    padding: 9px 0px;
 }
 
 hr {
@@ -164,11 +174,12 @@ hr {
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-    padding: 10px;
+    padding: 20px;
 }
 
 .s5 .p1 {
     font-size: 20px;
+    padding: 10px 0;
 }
 
 .s5 span {
@@ -177,7 +188,7 @@ hr {
 
 /*FOOTER*/
 footer {
-    padding: 50px;
+    padding: 50px 0px;
 }
 
 fieldset {
@@ -185,13 +196,15 @@ fieldset {
     border-radius: 10px;
     border: 0;
     text-align: center;
-    padding: 50px 0;
-    background-color: #0A2640  ;
+    padding: 50px 20px;
+    background-color: #0A2640;
     color: white;
+    
+    
 }
 
 fieldset input {
-    padding: 5px;
+    padding: 5px 0;
     border-radius: 50px;
     border: 0;
     margin: 5px;
@@ -230,19 +243,18 @@ footer .d1 {
 }
 
 footer .d2 {
-    padding: 5px 20px;
+    padding: 5px 30px;
+}
+
+footer .span {
+    padding-left: 68px;
 }
 
 footer span {
     opacity: 0.;
     padding: 10px 0;
-}
-
-footer span::after {
-    content: "hirings";
     padding: 0px;
-    border: 1px solid transparent;
+    border: 0;
     border-radius: 40px;
     background-color: #65E4A3;
-
 }
